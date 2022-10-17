@@ -1,0 +1,22 @@
+{
+	"dependencies": {
+		"bindbc-opengl": "~>1.0",
+		"bindbc-sdl": "~>1.0"
+	},
+	"versions": [
+		"SDL_204",
+		"GL_46",
+		"GL_ARB_program_interface_query",
+		"reflect_shaders"
+	],
+	"name": "shader_reflection",
+	"importPaths": [
+		"./",
+		"./../source"
+	],
+	"sourcePaths": [
+		"./",
+		"./../source"
+	],
+	"targetType": "executable"
+}

@@ -1,0 +1,20 @@
+{
+	"name": "dlang_engine",
+	"dependencies": {
+		"bindbc-opengl": "~>1.0",
+		"bindbc-sdl": "~>1.0"
+	},
+	"extraDependencyFiles": [
+		"views/"
+	],
+	"versions": [
+		"SDL_204",
+		"GL_46"
+	],
+	"subPackages": [
+		"shader_reflection"
+	],
+	"preBuildCommands": [
+		"dub run dlang_engine:shader_reflection -f -- --shaders=views/"
+	]
+}

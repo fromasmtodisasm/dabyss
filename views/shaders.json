@@ -1,0 +1,11 @@
+{
+    "shaders": [
+        {
+            "name": "primitive",
+            "stages": [
+                "vertex",
+                "pixel"
+            ]
+        }
+    ]
+}
